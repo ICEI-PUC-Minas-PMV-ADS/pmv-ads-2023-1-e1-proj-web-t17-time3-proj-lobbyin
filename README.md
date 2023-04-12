@@ -1,4 +1,4 @@
-# LobbyIN
+# Projeto LobbyIN
 
 `CURSO`
 
