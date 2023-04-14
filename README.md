@@ -10,7 +10,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 ## Integrantes
 
-* Philippe Ribeiro Mesquita
+* Philippe Mesquita
 * Allan Cesar Amaral Gomes
 * Matheus Monteiro de Godoi
 * João Gabriel Pereira da Silva
