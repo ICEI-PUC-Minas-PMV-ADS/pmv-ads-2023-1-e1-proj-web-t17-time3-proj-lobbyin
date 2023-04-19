@@ -1,6 +1,6 @@
 # Introdução
 
-Com o passar dos anos, tem se tornado cada vez mais constante a criação de novos jogos eletrônicos para o entretenimento da geração atual e de antigos entusiastas, com o intuito inicial de montar jogos voltados para o multiplayer (Jogos onde pessoas possam se conectar e jogar juntas online) a fim de atrair e prender por mais tempo a atenção dos jogadores. 
+Com o passar dos anos, tem se tornado cada vez mais constante a criação de novos jogos eletrônicos para o entretenimento da geração atual e de antigos entusiastas, com o intuito inicial de montar jogos multiplayer (jogos que permitem que vários jogadores participem simultaneamente de uma mesma partida) a fim de atrair e prender por mais tempo a atenção dos jogadores. 
 
 Os jogos multiplayer tem costume de ser tão amados por trazer uma modalidade onde pessoas podem se conectar através do mundo virtual e ainda socializar por meio dos mesmos. Porém, atualmente vem crescendo o número de pessoas solitárias e com dificuldades de socializar. 
 
@@ -17,15 +17,15 @@ O objetivo principal deste trabalho é a criação de um web app que apresente f
 
 Como objetivos específicos, podemos ressaltar: 
 
-    Fornecer funcionalidades que permitam os usuários buscar por jogos específicos dos quais procuram outros players para se conectar. 
+* Fornecer funcionalidades que permitam os usuários buscar por jogos específicos dos quais procuram outros players para se conectar. 
 
-    Permitir a criação de características que tenham como fim ser utilizadas de filtros a se espelhar com outros players de seu interesse. 
+* Permitir a criação de características que tenham como fim ser utilizadas de filtros a se espelhar com outros players de seu interesse. 
 
-    Integrar um sistema de chat após a pessoa se conectar com o player filtrado pela página. 
+* Integrar um sistema de chat após a pessoa se conectar com o player filtrado pela página. 
 
-    Elaborar um sistema de avaliação da performance, conduta e desempenho de cada jogador ao final da partida. 
+* Elaborar um sistema de avaliação da performance, conduta e desempenho de cada jogador ao final da partida. 
 
-    Criação de um lobby para encontros de campeonatos e partidas rankeadas.
+* Criação de um lobby para encontros de campeonatos e partidas rankeadas.
 
 ## Justificativa
 
@@ -35,4 +35,4 @@ Através do artigo citado, que foi retirado de um site de notícias, percebemos 
 
 ## Público-Alvo
 
-O web app é direcionado e tem o intuito de impactar a vida de todas as pessoas que são voltadas para o meio geek e dos jogos eletrônicos, independentemente de sua idade, gêneros etc... Pois, com a função de filtro cada variação pode ser crucial no encontro de outras pessoas com as mesmas características.
+O LobbyIN é direcionado e tem o intuito de impactar a vida de todas as pessoas que são voltadas para o meio geek e dos jogos eletrônicos, independentemente de sua idade, gêneros etc... Pois, com a função de filtro cada variação pode ser crucial no encontro de outras pessoas com as mesmas características.
