@@ -1,46 +1,38 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+Com o passar dos anos, tem se tornado cada vez mais constante a criação de novos jogos eletrônicos para o entretenimento da geração atual e de antigos entusiastas, com o intuito inicial de montar jogos voltados para o multiplayer (Jogos onde pessoas possam se conectar e jogar juntas online) a fim de atrair e prender por mais tempo a atenção dos jogadores. 
+
+Os jogos multiplayer tem costume de ser tão amados por trazer uma modalidade onde pessoas podem se conectar através do mundo virtual e ainda socializar por meio dos mesmos. Porém, atualmente vem crescendo o número de pessoas solitárias e com dificuldades de socializar. 
+
+Logo, percebemos a necessidade de um meio intermediário no qual pudesse ser útil para conectar pessoas solitárias, onde possam montar uma equipe para que suas jogatinas não sejam mais tão entediantes. 
+
+Apesar do foco ser voltado para os jogos, no fim das contas essas amizades podem se expandir pro mundo afora, tendo em mente que os jogadores podem se beneficiar na luta contra a solidão, da qual podemos perceber a influência direta em doenças mais sérias, como a própria depressão.
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
-
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+O problema retratado acima mostra a dificuldade de pessoas solitárias se conectarem a fim de jogar com outros indivíduos ou de simplesmente fazer novas amizades e manter conexões. Assim sendo, nossa ferramenta é voltada para meio geek como um facilitador para pessoas encontrarem companheiros com os mesmos interesses em suas áreas de lazer.
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+O objetivo principal deste trabalho é a criação de um web app que apresente ferramentas onde seus usuários criem filtros de seus interesses e possam buscar pessoas que almejam parceiros para montar uma equipe dentro de determinado jogo com filtros de interesses semelhantes, a fim de ser uma ferramenta intermediária na conexão de pessoas dentro do meio geek. 
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Como objetivos específicos, podemos ressaltar: 
+
+    Fornecer funcionalidades que permitam os usuários buscar por jogos específicos dos quais procuram outros players para se conectar. 
+
+    Permitir a criação de características que tenham como fim ser utilizadas de filtros a se espelhar com outros players de seu interesse. 
+
+    Integrar um sistema de chat após a pessoa se conectar com o player filtrado pela página. 
+
+    Elaborar um sistema de avaliação da performance, conduta e desempenho de cada jogador ao final da partida. 
+
+    Criação de um lobby para encontros de campeonatos e partidas rankeadas.
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+‘’A solidão pode ser considerada uma questão de saúde pública prevalente, com impactos no bem-estar e na longevidade. Um estudo da universidade norte-americana Florida State University College of Medicine, publicado em 2017, mostrou que a solidão pode aumentar em 40% o risco de demência, além de tornar a pessoa isolada mais vulnerável a doenças neurodegenerativas, como depressão, hipertensão e diabetes....’’  
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Através do artigo citado, que foi retirado de um site de notícias, percebemos o quão grave pode se tornar a falta de socialização na vida das pessoas. E hoje em dia através de um enorme mercado como o dos jogos multiplayer, podemos encontrar uma oportunidade de conectar um número maior de pessoas com facilidade e reduzir esse problema. Então, visando combater a causa citada pusemos vida em um projeto intermediário e facilitador da socialização no meio.
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
-
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+O web app é direcionado e tem o intuito de impactar a vida de todas as pessoas que são voltadas para o meio geek e dos jogos eletrônicos, independentemente de sua idade, gêneros etc... Pois, com a função de filtro cada variação pode ser crucial no encontro de outras pessoas com as mesmas características.
