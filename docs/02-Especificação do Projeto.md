@@ -60,22 +60,12 @@ A partir da compreensão do dia a dia das personas identificadas para o projeto,
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE`                      |PARA ... `MOTIVO/VALOR`                                                          |
 |--------------------|---------------------------------------------------------|---------------------------------------------------------------------------------|
 |Carolina Gonçalves  | Adicionar amigos ou conexões permanentes em meu perfil  | Poder salvar perfis para jogar depois e ter uma conexão facilitada com o mesmo  |
-|Carolina Gonçalves  | Criação de salas para mais de duas pessoas que queiram se conectar no jogo (criação de salas para times) | Permitir que possam administrar contas |
-|Fernando Ribeiro    | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Carolina Gonçalves  | Alterar permissões                 | Permitir que possam administrar contas |
-|Fernando Ribeiro    | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Fernando Ribeiro    | Alterar permissões                 | Permitir que possam administrar contas |
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|Carolina Gonçalves  | Criação de salas para mais de duas pessoas que queiram se conectar no jogo (criação de salas para times) | Gerar a possibilidade de conectar mais de duas pessoas ao mesmo tempo com semelhantes interesses no momento, ou até mesmo para o preenchimento de equipes  |
+|Fernando Ribeiro    | Possuir uma lupa de busca para o encontro de salas e perfis relacionados ao jogo buscado | Encontrar precisamente salas e perfis com o mesmo interesse de jogo momentâneo  |
+|Carolina Gonçalves  | Ter opções de chat ao se conectar com outros perfis e entrar em salas  | Facilitar o diálogo e contato inicial entre as pessoas conectadas |
+|Fernando Ribeiro    | Poder destacar características e gostos nos perfis  | Poder se conectar mais precisamente com outros perfis dos quais tenham os mesmos gostos inseridos em seus perfis  |
+|Fernando Ribeiro    | Avaliações de 0 a 5 estrelas sobre outros perfis no app  | Ter um mínimo de noção a respeito da conduta do perfil(jogador) do qual estou me conectando, se é uma pessoa agradável ou não de se jogar junto |
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
 
 ## Requisitos
 
