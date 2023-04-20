@@ -60,11 +60,11 @@ A partir da compreensão do dia a dia das personas identificadas para o projeto,
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE`                      |PARA ... `MOTIVO/VALOR`                                                          |
 |--------------------|---------------------------------------------------------|---------------------------------------------------------------------------------|
 |Carolina Gonçalves  | Adicionar amigos ou conexões permanentes em meu perfil  | Poder salvar perfis para jogar depois e ter uma conexão facilitada com o mesmo  |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|Carolina Gonçalves  | Criação de salas para mais de duas pessoas que queiram se conectar no jogo (criação de salas para times) | Permitir que possam administrar contas |
+|Fernando Ribeiro    | Registrar minhas tarefas           | Não esquecer de fazê-las               |
+|Carolina Gonçalves  | Alterar permissões                 | Permitir que possam administrar contas |
+|Fernando Ribeiro    | Registrar minhas tarefas           | Não esquecer de fazê-las               |
+|Fernando Ribeiro    | Alterar permissões                 | Permitir que possam administrar contas |
 |Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
 |Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
 
