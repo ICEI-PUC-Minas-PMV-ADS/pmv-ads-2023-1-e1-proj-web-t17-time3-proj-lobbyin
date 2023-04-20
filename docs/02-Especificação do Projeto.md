@@ -50,7 +50,7 @@ Instagram; Discord; Twitch;
 	+ **Hobbies, História**:  
 		+ Ler
 		+ Video games
-    + Academia
+		+ Academia
 
 
 ## Histórias de Usuários
