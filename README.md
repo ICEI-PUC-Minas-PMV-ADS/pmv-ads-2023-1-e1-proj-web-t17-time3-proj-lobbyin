@@ -6,7 +6,9 @@
 
 `1º SEMESTRE`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Os jogos multiplayer tem costume de ser tão amados por trazer uma modalidade onde pessoas podem se conectar através do mundo virtual e ainda socializar por meio dos mesmos. Porém, atualmente vem crescendo o número de pessoas solitárias e com dificuldades de socializar.
+
+Logo, percebemos a necessidade de um meio intermediário no qual pudesse ser útil para conectar pessoas solitárias, onde possam montar uma equipe para que suas jogatinas não sejam mais tão entediantes, daí a idéia LobbyIN.
 
 ## Integrantes
 
