@@ -69,50 +69,42 @@ A partir da compreensão do dia a dia das personas identificadas para o projeto,
 
 ## Requisitos
 
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
+O escopo funcional do projeto é definido por meio dos requisitos funcionais que descrevem as possibilidades interação dos usuários, bem como os requisitos não funcionais que descrevem os aspectos que o sistema deverá apresentar de maneira geral. Estes requisitos são apresentados a seguir.
 
 ### Requisitos Funcionais
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-01 | O site deve apresentar uma aba amigos para localizar suas conexões  | ALTA | 
+|RF-02 | O site deve fornecer uma ferramenta para o incremento de características em seu perfil    | Alta |
+|RF-03 | O site deve permitir ao usuário visualizar os participantes de uma sala e suas avaliações antes mesmo de adentrar a sala    | MÉDIA |
+|RF-04 | O site deve fornecer uma ferramenta de lupa para a busca de salas/jogos   | Alta |
+|RF-05 | O site deve oferecer uma funcionalidade de criação de salas relacionadas a determinados jogos   | Alta |
+|RF-06 | O site deve permitir visualizar as informações de contatos do mantenedor do site   | Baixa |
+|RF-07 | O site deve fornecer uma opção de chat para interações dentro das salas e na aba de amigos ao selecionar uma conexão    | Alta |
+|RF-08 | O site deve permitir aos usuários de avaliar outros após finalizar interações em determinada sala adentrada   | Baixa |
+|RF-09 | O site deve possuir um sistema de estrelas de reputação para cada usuário baseado em suas avaliações recebidas   | Baixa |
+|RF-010| O site deve permitir que usuários adicionem conexões ao seu perfil   | Alta |
+|RF-011| O site deve apresentar uma funcionalidade onde jogadores podem se conectar de forma individual com jogadores baseados em características semelhantes ao seu perfil | Alta |
+
 
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-01| O site deve ser publicado em um ambiente acessível publicamente na Internet (Repl.it, GitHub Pages); | Alta | 
+|RNF-02| O site deverá ser responsivo permitindo a visualização em um celular de forma adequada |  Alta |
+|RNF-03| O site deve ter bom nível de contraste entre os elementos da tela em conformidade |  Média |
+|RNF-04| O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge, Opera)  |  Alta |
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
 ## Restrições
 
-O projeto está restrito pelos itens apresentados na tabela a seguir.
+As questões que limitam a execução desse projeto e que se configuram como obrigações claras para o desenvolvimento do projeto em questão são apresentadas na tabela a seguir
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
-
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+|01| O projeto deverá ser entregue no final do semestre letivo, não podendo extrapolar a data de 12/06/2023.  |
+|02| O aplicativo deve se restringir às tecnologias básicas da Web no Front-end  |
+|03| A equipe não pode subcontratar o desenvolvimento do trabalho.  |
