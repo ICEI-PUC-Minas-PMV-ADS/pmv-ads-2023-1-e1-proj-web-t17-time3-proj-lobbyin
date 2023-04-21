@@ -13,7 +13,7 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 |:----------------------------------:|:------------:|:------------------------------------------------------------------------------------:|
 |     Repositório de código fonte    |    GitHub    | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t17-time3-proj-lobbyin       |
 |        Documentos do projeto       | Google Drive | https://sgapucminasbr-my.sharepoint.com/:w:/g/personal/1480009_sga_pucminas_br/EQBQrN51zxhFqLPNR7tIux0B7aCbIcZ-8tMRfTXOmkfIhg?e=edqYIj |
-| Projeto de Interface e  Wireframes |   MArvelApp     | https://marvelapp.com/prototype/bff42d1    |
+| Projeto de Interface e  Wireframes |   MarvelApp     | https://marvelapp.com/prototype/bff42d1    |
 |      Gerenciamento do Projeto      |    Trello    |                               |
 
 ## Controle de Versão
