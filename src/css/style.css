@@ -92,11 +92,7 @@
     margin-bottom: 20px;
 }
 
-.form-control:focus{
-    color: var(--blue3);
-}
-
-label{
+label, .form-control:focus{
     color: var(--blue3);
 }
 
