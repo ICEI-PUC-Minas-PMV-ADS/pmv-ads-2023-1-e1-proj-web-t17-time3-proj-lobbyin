@@ -1,0 +1,134 @@
+/* - RESERT - */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1rem;
+    font-family: 'Nunito', sans-serif;
+}
+
+:root{
+    --black:        #333333;
+    --blue:         #22BAED;
+    --white:        #FFFCF7;
+    --dark-purple:  #2F2933;
+    --light-purple: #655975;
+
+    --blue1: #0d1b2a;
+    --blue2: #1b263b;
+    --blue3: #415a77;
+    --blue3: #778da9;
+    --blue4: #e0e1dd;
+}
+
+/* - END RESERT - */
+
+.main-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(240deg, rgba(92,107,115,1) -24%, rgba(51,53,51,1) 100%);
+}
+
+.login-box{
+    background-color: #fff;
+    width: 400px;
+    height: 500px;
+    padding: 20px;
+    border: 1px solid var(--black);
+    border-radius: 40px 0 40px 0;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    position: relative;
+}
+
+.register-box{
+    background-color: #fff;
+    width: 400px;
+    height: 500px;
+    padding: 20px;
+    border: 1px solid var(--black);
+    border-radius: 40px 0 40px 0;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    position: relative;
+    display: none;
+}
+
+.login-form, .register-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.login-text, .register-text{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 40px;
+    color: var(--blue2);
+}
+
+.login-text::before{
+    content: "";
+    position: absolute;
+    border-bottom: 5px solid var(--blue3);
+    width: 36px;
+    top: 55px;
+}
+
+.register-text::before{
+    content: "";
+    position: absolute;
+    border-bottom: 5px solid var(--blue3);
+    width: 35px;
+    top: 55px;
+    right: 108px;
+}
+
+.form-control{
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+label, .form-control:focus{
+    color: var(--blue3);
+}
+
+.btn-login{
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 20px;
+    background: var(--blue3);
+    color: var(--white);
+    transition: all 0.1s ease-in;
+}
+
+.btn-login:hover{
+    background: var(--blue2);
+}
+
+.login-footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.btn-cad{
+    padding: 10px;
+    width: 150px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+    background: var(--blue3);
+    color: var(--white);
+    transition: all 0.1s ease-in;
+}
+
+.btn-cad:hover{
+    background: var(--blue2);
+}
