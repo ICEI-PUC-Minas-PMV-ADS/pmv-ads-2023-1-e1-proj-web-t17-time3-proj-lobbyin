@@ -1,5 +1,7 @@
 # Projeto LobbyIN
 
+<img src="docs/img/lobbyinlogo.jpg" width="65%" alt="Logo">
+
 `TECNOLOGIA EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS`
 
 `Projeto: Desenvolvimento de Aplicação Web Front-End - Grupo 03`
