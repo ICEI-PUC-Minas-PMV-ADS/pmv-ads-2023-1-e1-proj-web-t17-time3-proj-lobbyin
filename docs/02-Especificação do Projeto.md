@@ -6,51 +6,91 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
 
 ## Personas
 
-+ ### Fernando Ribeiro
-	
-	+ **Idade**: 22 anos
+<table>
+	<tr>
+		<td rowspan="2"><img src="img/foto1.png" width=80% height=80% alt="persona1"></td>
+		<td colspan="2"><strong>Fernando Ribeiro</strong></td>
+	</tr>
+	<tr>
+		<td><strong>Idade: </strong>22 Anos<br><strong>Ocupação: </strong>Estudante de direito</td>
+		<td>
+			<strong>Aplicativos</strong>
+			<ul>
+				<li>Instagram</li>
+				<li>Discord</li>
+				<li>LinkdIn</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<strong>Motivações</strong>
+			<ul>
+				<li>Curtir com os amigos</li>
+				<li>Ter momentos especiais em conjunto</li>
+			</ul>
+		</td>
+		<td>
+			<strong>Frustações</strong>
+			<ul>
+				<li>Pessoas grosseiras</li>
+				<li>Falta de avaliações e consequências<br> nas  plataformas</li>
+			</ul>
+		</td>
+		<td>
+			<strong>Hobbies, História</strong>
+			<ul>
+				<li>Assistir animes</li>
+				<li>Video games</li>
+				<li>Ler</li>
+			</ul>
+		</td>
+	</tr>
+</table>
 
-	+ **Ocupação**:  
-	Estudante de direito
+<br><br>
 
-	+ **Aplicativos**:  
-Instagram; Discord; LinkdIn;
-
-	+ **Motivações**:  
-		+ Curtir com os amigos
-		+ Ter momentos especiais em conjunto
-
-	+ **Frustrações**:  
-		+ Pessoas grosseiras
-		+ Falta de avaliações e consequências nas plataformas
-		
-	+ **Hobbies, História**:  
-		+ Assistir animes
-		+ Video games
-
-
-+ ### Carolina Gonçalves
-	
-	+ **Idade**: 28 anos
-
-	+ **Ocupação**:  
-	Analista de suporte
-
-	+ **Aplicativos**:  
-Instagram; Discord; Twitch;
-
-	+ **Motivações**:  
-		+ Participar de algum lobby/partidas em conjuto
-		+ Pessoas interessantes com quem jogar
-
-	+ **Frustrações**:  
-		+ Jogar sozinha
-		+ Falta de interações
-		
-	+ **Hobbies, História**:  
-		+ Ler
-		+ Video games
-		+ Academia
+<table>
+	<tr>
+		<td rowspan="2"><img src="img/foto2.png" width=80% height=80% alt="persona2"></td>
+		<td colspan="2"><strong>Carolina Gonçalves</strong></td>
+	</tr>
+	<tr>
+		<td><strong>Idade: </strong>28 anos<br><strong>Ocupação: </strong>Analista de suporte</td>
+		<td>
+			<strong>Aplicativos</strong>
+			<ul>
+				<li>Instagram</li>
+				<li>Discord</li>
+				<li>Twitch</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<strong>Motivações</strong>
+			<ul>
+				<li>Participar de algum lobby/partidas em conjuto</li>
+				<li>Pessoas interessantes com quem jogar</li>
+			</ul>
+		</td>
+		<td>
+			<strong>Frustações</strong>
+			<ul>
+				<li>Jogar sozinha</li>
+				<li>Falta de interações</li>
+			</ul>
+		</td>
+		<td>
+			<strong>Hobbies, História</strong>
+			<ul>
+				<li>Ler</li>
+				<li>Video games</li>
+				<li>Acadenia</li>
+			</ul>
+		</td>
+	</tr>
+</table>
 
 
 ## Histórias de Usuários
