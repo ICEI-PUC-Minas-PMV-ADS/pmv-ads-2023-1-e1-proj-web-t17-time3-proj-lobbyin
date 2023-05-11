@@ -43,7 +43,7 @@ Assim que a primeira versão do sistema estiver disponível, deverá complementa
 
 # Hospedagem
 
-* <a src="https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-1-e1-proj-web-t17-time3-proj-lobbyin/src">Lobby'IN</a>
+* <a href="https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-1-e1-proj-web-t17-time3-proj-lobbyin/src">Lobby'IN</a>
 
 
 # Armazenamento do Código-Fonte
