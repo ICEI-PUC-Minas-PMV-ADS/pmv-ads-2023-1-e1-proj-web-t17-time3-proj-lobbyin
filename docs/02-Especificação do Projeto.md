@@ -8,7 +8,7 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
 
 <table>
 	<tr>
-		<td rowspan="2"><img src="img/Foto1.png" width=80% height=80% alt="persona1"></td>
+		<td rowspan="2"><img src="img/Foto1.png" width=60% height=60% alt="persona1"></td>
 		<td colspan="2"><strong>Fernando Ribeiro</strong></td>
 	</tr>
 	<tr>
@@ -52,7 +52,7 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
 
 <table>
 	<tr>
-		<td rowspan="2"><img src="img/Foto2.png" width=80% height=80% alt="persona2"></td>
+		<td rowspan="2"><img src="img/Foto2.png" width=60% height=60% alt="persona2"></td>
 		<td colspan="2"><strong>Carolina Gonçalves</strong></td>
 	</tr>
 	<tr>
