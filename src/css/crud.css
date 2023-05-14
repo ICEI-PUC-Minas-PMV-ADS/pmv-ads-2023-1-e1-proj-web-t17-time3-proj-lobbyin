@@ -1,0 +1,173 @@
+/* - RESERT - */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1rem;
+    font-family: 'Nunito', sans-serif;
+}
+
+:root{
+    --black: #333333;
+    --blue1: #0d1b2a;
+    --blue2: #1b263b;
+    --blue3: #415a77;
+    --blue4: #778da9;
+    --blue5: #e0e1dd;
+}
+/* font-family: 'Press Start 2P', cursive; */
+/* - END RESERT - */
+
+body{
+    background-color: #42494B;
+}
+
+.main-header{
+    background-color: var(--blue1);
+}
+
+.header{
+    width: 98%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    margin-bottom: 30px;
+}
+
+.logo img{
+    height: 60px;
+}
+
+.btn-nav{
+    border: none;
+    margin-right: 10px;
+    background-color: var(--blue3);
+    color: var(--blue5);
+    font-family: 'Press Start 2P', cursive;
+    font-size: .6rem;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: all .4s ease-out;
+}
+
+.btn-nav:hover{
+    background-color: var(--blue4);
+}
+
+.main-form{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.form-lobby{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+    width: 800px;
+}
+
+.input-box{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.input-box label{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 0.6rem;
+    color: var(--blue5);
+    margin-bottom: 2px;
+}
+
+.input-box input{
+    margin: 0.2rem 0;
+    padding: 5px;
+    width: 300px;
+    border: none;
+    box-shadow: 1px 1px 6px var(--blue5);
+}
+
+.input-box input:hover{
+    background-color: var(--blue5);
+}
+
+.main-table{
+    color: #e0e1dd;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*label {
+    font-weight: bolder;
+}
+::placeholder {
+    color: lightskyblue !important;
+    opacity: 3;
+}
+::-webkit-input-placeholder {
+    color:  lightskyblue !important;
+}
+:-moz-placeholder {
+    color:  lightskyblue !important;
+    opacity:  3;
+ }
+ h1 {
+     text-align: center;
+ }
+ #msg {
+     height: 60px;
+ }
+ #grid-contatos tbody {
+     cursor: pointer;
+ }*/

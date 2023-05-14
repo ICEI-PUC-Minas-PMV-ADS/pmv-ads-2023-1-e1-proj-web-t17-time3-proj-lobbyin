@@ -77,11 +77,11 @@ function loginUser (login, senha) {
 function logoutUser () {
     usuarioCorrente = {};
     sessionStorage.setItem ('usuarioCorrente', JSON.stringify (usuarioCorrente));
-    window.location = LOGIN_URL;
+    window.location.href = "index.html";
 }
 
 
-
+// adicionando Usuario Ao DB
 function addUser (nome, login, senha, email) {
     
     // Cria um objeto de usuario para o novo usuario 
@@ -102,17 +102,6 @@ function setUserPass () {
 // Inicializa as estruturas utilizadas pelo LoginApp
 initLoginApp ();
 // ---------------------------fim da **** do DB-----------------------------------------
-
-
-
-//coments
-
-
-
-
-
-
-
 
 //VALIDANDO TELA DE LOGIN -----------------------------------------------------------
 //função para processar o formulario de login
@@ -139,6 +128,8 @@ function processaFormLogin(event){
 
 
 
+
+
 //----------------------------------------------------------------------------------------
 ///modal mandando pro db
 function salvaLogin (event) {
@@ -158,8 +149,10 @@ function salvaLogin (event) {
 
     // Adiciona o usuário no banco de dados
     addUser (nome, login, senha, email);
+
     alert ('Usuário salvo com sucesso. Proceda com o login para');
     // Oculta a div modal do login
+    
     document.getElementById ('myModal').style.display = 'none';
     $('#loginModal').modal('hide');
 }
@@ -196,3 +189,5 @@ window.onclick = function (event) {
     }
 }
 //---------------------------------------------------
+
+
