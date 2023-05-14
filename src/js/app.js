@@ -3,12 +3,11 @@ var db_contatos_inicial = {
     "data": [
         {
             "id": 1,
-            "nome": "Leanne Graham",
-            "cidade": "Belo Horizonte",
-            "categoria": "amigos",
-            "email": "Sincere@april.biz",
-            "telefone": "1-770-736-8031",
-            "website": "hildegard.org"
+            "nome": "Vavazin",
+            "cidade": "Valorant",
+            "categoria": "jogar com amigos",
+            "email": "competitivo",
+            "telefone": "fps"
         },
     ]
 }
