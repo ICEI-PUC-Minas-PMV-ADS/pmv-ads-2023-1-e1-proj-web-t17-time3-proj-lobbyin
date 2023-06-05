@@ -123,13 +123,6 @@ function processaFormLogin(event){
 }
 
 
-
-
-
-
-
-
-
 //----------------------------------------------------------------------------------------
 ///modal mandando pro db
 function salvaLogin (event) {
