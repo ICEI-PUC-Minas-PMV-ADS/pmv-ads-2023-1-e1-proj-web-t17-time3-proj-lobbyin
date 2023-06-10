@@ -102,6 +102,26 @@ body{
     color: #e0e1dd;
 }
 
+/* - Responsive - */
+
+@media screen and (max-width: 767px){
+    
+    table{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    table thead tr{
+        display: flex;
+        flex-direction: column;
+    }
+
+    table tbody td{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 
 
 
