@@ -1,5 +1,7 @@
 # Projeto LobbyIN
 
+<img src="docs/img/lobbyinlogo.jpg" width="65%" alt="Logo">
+
 `TECNOLOGIA EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS`
 
 `Projeto: Desenvolvimento de Aplicação Web Front-End - Grupo 03`
@@ -45,7 +47,7 @@ Assim que a primeira versão do sistema estiver disponível, deverá complementa
 
 # Hospedagem
 
-* https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-1-e1-proj-web-t17-time3-proj-lobbyin/src
+* <a href="https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-1-e1-proj-web-t17-time3-proj-lobbyin/src">Lobby'IN</a>
 
 
 # Armazenamento do Código-Fonte

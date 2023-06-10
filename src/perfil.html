@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/perfil.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <title>Meu Perfil</title>
+    
+    <!--Codigo JAvascript-->
+    <script src="js/login.js"></script>
+    <script>
+        // Verifica se o usuário já esta logado e se negativo, redireciona para tela de login        
+        if (!usuarioCorrente.login) {
+            window.location.href = index_URL;
+        }
+        function initPage() {
+
+        // preenche os campos da tela de perfil com informações do usuario;
+        document.getElementById('nomeUsuario').innerHTML = usuarioCorrente.nome;
+        document.getElementById('emailUsuario').innerHTML = usuarioCorrente.email;
+        document.getElementById('loginUsuario').innerHTML = usuarioCorrente.login;
+
+        }
+        // Associa ao evento de carga da página a função para verificar se o usuário está logado
+        window.addEventListener('load', initPage);    
+    </script>
+
+</head>
+
+<body>
+    <div class="main_container">
+        <div class="logo_home">
+            <a class="logo" href="home.html"><img id="logo_img" src="../docs/img/logo-bobbyin-clean.png" alt=""></a>
+        </div>
+
+        <div class="perfil_container">
+            <div class="meu-perfil" id="perfil">
+                <h1>Perfil</h1>
+                <img class="img-perfil" src="../docs/img/Imagem_perfil_vazia.jpg" alt="">
+
+                <div class="info-perfil">
+                    <table>
+                        <tr>
+                            <td>Nome:</td>
+                            <td id="nomeUsuario"></td>
+                        </tr>
+                            <td>E-mail:</td>
+                            <td id="emailUsuario"></td>
+                        </tr>
+                        <tr></tr>    
+                            <td>Login:</td>
+                            <td id="loginUsuario"></td>
+                        </tr>
+                    </table>    
+                    <!-- <form>
+                        <div class="input-box">
+                            <label for="inputId" class="form-label">Nome:</label>
+                            <input type="text" class="form-control">
+                        </div>
+        
+                        <div class="input-box">
+                            <label for="inputNome" class="form-label">Estado:</label>
+                            <input type="text" class="form-control">
+                        </div>
+        
+                        <div class="input-box">
+                            <label for="inputTelefone" class="form-label">Idade:</label>
+                            <input type="text" class="form-control">
+                        </div>
+                    </form> -->
+                </div>
+
+                <!-- <a target="_self" href="" id="edit">Editar perfil</a> -->
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

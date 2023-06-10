@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+:root{
+    --black: #333333;
+    --blue1: #0d1b2a;
+    --blue2: #1b263b;
+    --blue3: #415a77;
+    --blue4: #778da9;
+    --blue5: #e0e1dd;
+    --color5: hsl(304, 64%, 28%);
+    --color6: #372337cf;
+}
+
+/*CORPO DO SITE*/
+body{
+    height: 100vh;
+    background-color: #42494B;
+}
+
+/* quadros */
+.container {
+    width: 800px;
+    margin: 100px auto 0; /* Adicione margem superior */
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-gap: 10px;
+    background-color: var(--color6);
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    color: #ccc;
+  }
+
+.sala {
+    font-size: 24px;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.descricao {
+    grid-column: span 2;
+    margin-top: 10px;
+}
+
+.info {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+    margin-top: 10px;
+}
+
+.info-item {
+    justify-self: end;
+    margin-bottom: 50px;
+}
+
+.info-item:not(:last-child) {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+/* barra lateral */
+nav.menu-lateral{
+    width: 70px;
+    height: 100%;
+    background-color: var(--color6);
+    padding: 30px 0 30px 1%;
+    box-shadow: 3px 0 6px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: .2s;
+}
+
+nav.menu-lateral:hover{
+    width: 300px;    
+}
+
+.btn-expandir{
+    width: 100%;
+    padding-left: 10px; 
+    margin-bottom: 30px;  
+}
+
+.btn-expandir > i{
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+ul{
+    height: 100%;
+    list-style-type: none;
+}
+
+ul li.item-menu{
+    transition: .2s;
+}
+
+ul li.item-menu:hover{
+    background: var(--color5);
+}
+
+ul li.item-menu a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 15px 7%;
+    display: flex;
+    margin-bottom: 10px;
+    line-height: 35px;
+}
+
+ul li.item-menu a .txt-link{
+    margin-left: 40px;
+}
+
+ul li.item-menu a .icon > i{
+    font-size: 30px;
+    margin-left: 5px;
+}
