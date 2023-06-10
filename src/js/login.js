@@ -151,12 +151,13 @@ function salvaLogin (event) {
 }
 
 // Associa a funçao processaFormLogin  formulário adicionado um manipulador do evento submit
-document.getElementById ('login-form').addEventListener ('submit', processaFormLogin);
+document.getElementById('login-form').addEventListener ('submit', processaFormLogin);
 // Associar salvamento ao botao
-document.getElementById ('btn-salvar').addEventListener ('click', salvaLogin);
+document.getElementById('btn-salvar').addEventListener ('click', salvaLogin);
+
 
 //--------------MODAL--------------------------------
-// pega a ***** do modal
+// pega  modal
 var modal = document.getElementById("myModal");
 
 //pega o botão cadastrar

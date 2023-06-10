@@ -20,9 +20,6 @@
         // Associa a função de logout ao botão
         document.getElementById('btn_logout').addEventListener('click', logoutUser);
 
-        // Informa o nome do usuário logado
-        //document.getElementById('nomeUsuario').innerHTML = usuarioCorrente.nome;
-
         }
         // Associa ao evento de carga da página a função para verificar se o usuário está logado
         window.addEventListener('load', initPage);    
@@ -77,12 +74,16 @@
 
                 <div class="input-box">
                     <label for="inputCidade" class="form-label">Interesse</label>
-                    <input type="text" class="form-control" id="inputCidade">
+                    <input type="text" class="form-control" id="inputCidade" required>
                 </div>
 
                 <div class="input-box">
                     <label for="inputCategoria" class="form-label">Categoria</label>
                     <input type="text" class="form-control" id="inputCategoria" required>
+                </div>
+                <div class="input-box">
+                    <label for="inputLinkSala" class="form-label">Link Da Sala</label>
+                    <input type="text" class="form-control" id="inputLinkSala" required>
                 </div>
         </div>
 
@@ -96,11 +97,13 @@
                         <th scope="col">Descrição</th>
                         <th scope="col">Interesse</th>
                         <th scope="col">Categoria</th>
+                        <th scope="col">Link da Sala</th>
                     </tr>
                 </thead>
                 <tbody id="table-contatos" class="table-contatos">
                     <tr>
                         <td scope="row">1</td>
+                        <td></td>
                         <td></td>
                         <td></td>
                         <td></td>
@@ -128,6 +131,7 @@
                                                 <td>${contato.email}</td>
                                                 <td>${contato.cidade}</td>
                                                 <td>${contato.categoria}</td>
+                                                <td><a href="${contato.sala}">${contato.nome}</a></td>
                                             </tr>`);
             }
         }
@@ -147,13 +151,14 @@
                 let campoEmail = $('#inputEmail').val();
                 let campoCidade = $("#inputCidade").val();
                 let campoCategoria = $('#inputCategoria').val();
-                let campoSite = $('#inputSite').val();
+                let campoSala = $('#inputLinkSala').val();
                 let contato = {
                     nome: campoNome,
                     telefone: campoTelefone,
                     email: campoEmail,
                     cidade: campoCidade,
-                    categoria: campoCategoria
+                    categoria: campoCategoria,
+                    sala: campoSala
                 };
 
                 insertContato(contato);
@@ -178,13 +183,14 @@
                 let campoEmail = $("#inputEmail").val();
                 let campoCidade = $("#inputCidade").val();
                 let campoCategoria = $("#inputCategoria").val();
-                let campoSite = $('#inputSite').val();
+                let campoSala = $('#inputLinkSala').val();
                 let contato = {
                     nome: campoNome,
                     telefone: campoTelefone,
                     email: campoEmail,
                     cidade: campoCidade,
-                    categoria: campoCategoria
+                    categoria: campoCategoria,
+                    sala : campoSala
                 };
 
                 updateContato(parseInt(campoId), contato);
@@ -237,6 +243,7 @@
                 $("#inputEmail").val(colunas[3].innerText);
                 $("#inputCidade").val(colunas[4].innerText);
                 $("#inputCategoria").val(colunas[5].innerText);
+                $("#inputLinkSala").val(colunas[6].innerText);
             });
 
             exibeContatos();

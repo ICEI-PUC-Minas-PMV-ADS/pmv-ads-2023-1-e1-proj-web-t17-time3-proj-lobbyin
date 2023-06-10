@@ -19,9 +19,6 @@
         // Associa a função de logout ao botão
         document.getElementById('btn_logout').addEventListener('click', logoutUser);
 
-        // Informa o nome do usuário logado
-        //document.getElementById('nomeUsuario').innerHTML = usuarioCorrente.nome;
-
         }
         // Associa ao evento de carga da página a função para verificar se o usuário está logado
         window.addEventListener('load', initPage);    
@@ -30,15 +27,9 @@
 </head>
 <body>
     <!-- quadro da sala  -->
-    <div class="container">
-        <div class="sala">Nome da Sala</div>
-        <div class="descricao">Descrição da Sala</div>
-        <div class="info">
-          <div class="info-item">Nome do Jogo</div>
-          <div class="info-item">Categoria</div>
-          <div class="info-item">Interesse</div>
-        </div>
-      </div>
+    <div class="container" id="search-result">
+        <ul id="resultado"></ul>
+    </div>
 
     <!-- barra lateral -->
     <nav class="menu-lateral">
@@ -90,5 +81,7 @@
             </li>
         </ul>
     </nav>
+    <script src="js/app.js"></script>
+    <script src="js/home.js"></script>
 </body>
 </html>

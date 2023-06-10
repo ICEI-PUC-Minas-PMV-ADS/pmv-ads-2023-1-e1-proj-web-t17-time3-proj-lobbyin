@@ -7,7 +7,8 @@ var db_contatos_inicial = {
             "cidade": "Valorant",
             "categoria": "jogar com amigos",
             "email": "competitivo",
-            "telefone": "fps"
+            "telefone": "fps",
+            "sala": "https://discord.gg/DW7zgJ4T" 
         },
     ]
 }
@@ -35,12 +36,12 @@ function insertContato(contato) {
         "telefone": contato.telefone,
         "cidade" : contato.cidade,
         "categoria": contato.categoria,
-        "website": contato.website
+        "sala": contato.sala
     };
 
     // Insere o novo objeto no array
     db.data.push(novoContato);
-    displayMessage("Contato inserido com sucesso");
+    displayMessage("sala inserida com sucesso");
 
     // Atualiza os dados no Local Storage
     localStorage.setItem('db_contato', JSON.stringify(db));
@@ -56,9 +57,9 @@ function updateContato(id, contato) {
     db.data[index].telefone = contato.telefone,
     db.data[index].cidade = contato.cidade,
     db.data[index].categoria = contato.categoria,
-    db.data[index].website = contato.website
+    db.data[index].sala = contato.sala
 
-    displayMessage("Contato alterado com sucesso");
+    displayMessage("sala alterada com sucesso");
 
     // Atualiza os dados no Local Storage
     localStorage.setItem('db_contato', JSON.stringify(db));
@@ -68,7 +69,7 @@ function deleteContato(id) {
     // Filtra o array removendo o elemento com o id passado
     db.data = db.data.filter(function (element) { return element.id != id });
 
-    displayMessage("Contato removido com sucesso");
+    displayMessage("sala removida com sucesso");
 
     // Atualiza os dados no Local Storage
     localStorage.setItem('db_contato', JSON.stringify(db));

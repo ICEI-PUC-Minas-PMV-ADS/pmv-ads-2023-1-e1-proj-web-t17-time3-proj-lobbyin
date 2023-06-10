@@ -37,7 +37,8 @@ body{
 }
 
 .meu-perfil{
-    width: 400px;
+    width: 550px;
+    height: 450px;
     background-color: #e0e1dd;
     display: flex;
     align-items: center;
@@ -57,9 +58,14 @@ body{
 }
 
 .info-perfil{
+    margin: auto;
+}
+
+table{
     width: 100%;
 }
-ul li{
-    margin-bottom: 20px;
-    list-style: none;
+
+table td {
+    height: 25px;
 }
+
