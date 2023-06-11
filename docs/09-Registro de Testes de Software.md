@@ -12,7 +12,7 @@ Resultado: Após realizar o cadastro e em seguida o login, é feito o encaminham
 ![image](img/teste2.jpg)
 ![image](img/teste3.jpg)
 
-## Registro Testes ao consultar usuário Usuário
+## Registro Testes ao consultar usuário
 
 Resultado: Após seguir pelo menu lateral e clicar em usuário, é feito o encaminhamento para tela de usuário e a exibição de suas informações básicas.
 
