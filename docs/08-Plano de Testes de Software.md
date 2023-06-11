@@ -37,7 +37,7 @@
 | Caso de teste 05 | Excluir uma sala | 
 | - | - | 
 | Requisito 05 | O site deve oferecer uma funcionalidade de criação, edição e exclusão de salas | 
-| Objetivo do Teste |  Validar a edição de salas para o usuário     |
+| Objetivo do Teste |  Validar a exclusão de salas para o usuário     |
 | Passos | Após o usuário estar logado: <br> - No menu lateral da home, clique em "Nova Sala" <br> - Vá na tabela que contém as salas já cadastradas e dê um clique na no registro que deseja alterar <br> - Preencha os campos as com informações desejadas <br> - Clique no botão "Excluir"<br>
 | Critério de êxito | O registro será removido da tabela logo abaixo |
 <br>
