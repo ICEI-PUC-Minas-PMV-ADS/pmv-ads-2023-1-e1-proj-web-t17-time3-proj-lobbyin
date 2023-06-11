@@ -4,10 +4,10 @@ var db_contatos_inicial = {
         {
             "id": 1,
             "nome": "Vavazin",
-            "cidade": "Valorant",
-            "categoria": "jogar com amigos",
-            "email": "competitivo",
-            "telefone": "fps",
+            "telefone": "Valorant",
+            "cidade": "competitivo",
+            "categoria": "fps",
+            "email": "jogar com amigos",
             "sala": "https://discord.gg/DW7zgJ4T" 
         },
     ]

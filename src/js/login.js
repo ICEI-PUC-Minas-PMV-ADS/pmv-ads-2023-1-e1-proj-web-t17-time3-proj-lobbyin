@@ -85,7 +85,7 @@ function logoutUser () {
 function addUser (nome, login, senha, email) {
     
     // Cria um objeto de usuario para o novo usuario 
-    let usuario = {"login": login, "senha": senha, "nome": nome, "email": email };
+    let usuario = {"login": login, "senha": senha, "nome": nome, "email": email};
     
     // Inclui o novo usuario no banco de dados baseado em JSON
     db_usuarios.usuarios.push (usuario);
@@ -101,7 +101,6 @@ function setUserPass () {
 
 // Inicializa as estruturas utilizadas pelo LoginApp
 initLoginApp ();
-// ---------------------------fim da **** do DB-----------------------------------------
 
 //VALIDANDO TELA DE LOGIN -----------------------------------------------------------
 //função para processar o formulario de login
@@ -130,8 +129,8 @@ function salvaLogin (event) {
     event.preventDefault ();
 
     // Obtem os dados do formulário
-    let login  = document.getElementById('txt-username').value;
-    let nome   = document.getElementById('txt-login').value;
+    let nome  = document.getElementById('txt-username').value;
+    let login   = document.getElementById('txt-login').value;
     let email  = document.getElementById('txt-email').value;
     let senha  = document.getElementById('txt-password').value;
     let senha2 = document.getElementById('ctxt-confirmPassword').value;

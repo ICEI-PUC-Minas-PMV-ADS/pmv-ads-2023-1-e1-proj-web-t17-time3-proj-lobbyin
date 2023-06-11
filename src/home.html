@@ -5,9 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
     
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/home.js"></script>
     <script src="js/login.js"></script>
     <script>
         // Verifica se o usuário já esta logado e se negativo, redireciona para tela de login        
@@ -21,23 +26,69 @@
 
         }
         // Associa ao evento de carga da página a função para verificar se o usuário está logado
-        window.addEventListener('load', initPage);    
+        window.addEventListener('load', initPage); 
+
+        
+        // função para listar na tabela os contatos que estão associados aos filtros 
+        function ListaContatos() {
+            for (i = 0; i < db.data.length; i++) {
+                let contato = db.data[i];
+                $("#table-contatos").append(`<tr><td scope="row">${contato.id}</td>
+                                                <td>${contato.nome}</td>
+                                                <td>${contato.telefone}</td>
+                                                <td>${contato.email}</td>
+                                                <td>${contato.categoria}</td>
+                                                <td><a href="${contato.sala}">${contato.nome}</a></td>
+                                            </tr>`);
+            }
+        }
+        
+        //item menu mostrar em responsivo
+        /* abre e fecha o menu pelos icones*/
+        const nav = document.querySelector('#header nav')
+        const toggle = document.querySelectorAll('nav .toggle')
+
+        for (const element of toggle) {
+        element.addEventListener('click', function () {
+            nav.classList.toggle('show')
+        })
+}
     </script>
 
 </head>
-<body>
+<body onload="ListaContatos()">
     <!-- quadro da sala  -->
     <div class="container" id="search-result">
-        <ul id="resultado"></ul>
+        <h1>Salas</h1>
+            <div class="row">
+                <div class="col-sm-12">
+                    <table id="grid-contatos" class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Nome da Sala</th>
+                                <th scope="col">Jogo</th>
+                                <th scope="col">Descrição</th>
+                                <th scope="col">Categoria</th>
+                                <th scope="col">Juntar-se</th>
+                            </tr>
+                        </thead>
+                        <tbody id="table-contatos">
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
     </div>
 
     <!-- barra lateral -->
     <nav class="menu-lateral">
         <div class="btn-expandir">
-            <i class="bi bi-list"></i>
+            <i class="toggle bi bi-list"></i>
+            <div class="toggle icon-close"></div>
         </div>
         
-        <ul>
+        <ul class="menu">
             <li class="item-menu">
                 <a href="perfil.html">
                     <span class="icon"><i class="bi bi-person-circle"></i></span>
@@ -55,7 +106,7 @@
             <li class="item-menu">
                 <a href="#">
                     <span class="icon"><i class="bi bi-chat"></i></span>
-                    <span class="txt-link">chat</span>
+                    <span class="txt-link">chat (Em Breve)</span>
                 </a>
             </li>
 
@@ -67,7 +118,7 @@
             </li>
 
             <li class="item-menu">
-                <a href="#">
+                <a href="config.html">
                     <span class="icon"><i class="bi bi-gear"></i></span>
                     <span class="txt-link">settings</span>
                 </a>
@@ -81,7 +132,5 @@
             </li>
         </ul>
     </nav>
-    <script src="js/app.js"></script>
-    <script src="js/home.js"></script>
 </body>
 </html>
