@@ -6,8 +6,19 @@
     font-size: medium;
 }
 
+:root{
+    --black: #333333;
+    --blue1: #0d1b2a;
+    --blue2: #1b263b;
+    --blue3: #415a77;
+    --blue4: #778da9;
+    --blue5: #e0e1dd;
+    --purple1: hsl(304, 64%, 28%);
+    --purple2: #372337cf;
+}
+
 body{
-    background: linear-gradient(45deg, #3D2554, gray) no-repeat;
+    background: linear-gradient(240deg, rgba(92,107,115,1) -24%, rgba(51,53,51,1) 100%);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -17,6 +28,16 @@ body{
 .main_container{
     height: 100vh;
     width: 100%;
+}
+
+header{
+    background-color: var(--blue1);
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
 }
 
 .logo_home{
