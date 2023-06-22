@@ -42,17 +42,15 @@
                                             </tr>`);
             }
         }
-        
-        //item menu mostrar em responsivo
         /* abre e fecha o menu pelos icones*/
         const nav = document.querySelector('#header nav')
         const toggle = document.querySelectorAll('nav .toggle')
 
         for (const element of toggle) {
-        element.addEventListener('click', function () {
-            nav.classList.toggle('show')
-        })
-}
+            element.addEventListener('click', function () {
+                nav.classList.toggle('show')
+            })
+        }
     </script>
 
 </head>
@@ -84,7 +82,8 @@
     <!-- barra lateral -->
     <nav class="menu-lateral">
         <div class="btn-expandir">
-            <i class="toggle bi bi-list"></i>
+            <i class="bi bi-list"></i>
+            <div class="toggle icon-menu"></div>
             <div class="toggle icon-close"></div>
         </div>
         
@@ -113,7 +112,7 @@
             <li class="item-menu">
                 <a href="#">
                     <span class="icon"><i class="bi bi-newspaper"></i></i></span>
-                    <span class="txt-link">news</span>
+                    <span class="txt-link">news (Em Breve)</span>
                 </a>
             </li>
 

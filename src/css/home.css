@@ -180,3 +180,9 @@ ul li.item-menu a .icon > i{
     font-size: 30px;
     margin-left: 5px;
 }
+
+@media (max-width: 1000px){
+    nav.menu-lateral{
+        display: none;
+    }
+}
